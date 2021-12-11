@@ -1,0 +1,21 @@
+Me conecto con SSH:
+-> ssh juanbrav@ssh.juanbravo.es.mialias.net
+
+nos desplazamos mediante cd .. a la carpeta web
+
+creamos en el directorio web la carpeta:
+ -> mkdir GRUPO2DAW21 
+
+Hacemos un  -> git init
+
+Establecemos la conexion con el github:
+-> git remote add origin http://github.com/javiergr2001/GRUPO2DAW21
+
+-Realice git remote -v para ver que la conexión se habia realizado correctamente.
+origin https://github.com/sebtiBenzakourMohammed/GRUPO4FFMDAW2 (fetch)
+origin https://github.com/sebtiBenzakourMohammed/GRUPO4FFMDAW2 (push)
+
+-Despues quite la seguridad de ssh con: git config --global http.sslVerify false
+
+Nos descargamos todo del github al cdmon:
+ ->git pull origin master
